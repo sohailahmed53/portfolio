@@ -4,6 +4,7 @@ import Typewriter from "typewriter-effect";
 import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
 // import ll from "../assets/ll.jpg"
 import { useRef } from "react";
+import me from  "../assets/me.png"
 
 const Home = () => {
   const clientCount = useRef(null);
@@ -104,7 +105,7 @@ const Home = () => {
       </section>
 
       <section>
-        {/* <img src={me} alt="Sohail" /> */}
+        <img src={me} alt="Sohail" />
       </section>
       <BsChevronDown />
     </div>
